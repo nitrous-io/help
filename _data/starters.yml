@@ -1,0 +1,41 @@
+- name: Hikari Responsive Blog
+  github_url: https://github.com/mx3m/hikari-for-Jekyll
+  desc: A minimalist jekyll responsive blog with slide out menu.
+  avatar: hikari.png
+  demo_url: https://github.com/mx3m/hikari-for-Jekyll
+
+- name: Mininalist Blog
+  github_url: https://github.com/poole/poole
+  desc: A minimalist jekyll blog.
+  avatar: poole.png
+  demo_url: http://demo.getpoole.com/
+
+- name: Personal Blog
+  github_url: https://github.com/KazumaSATO/Siera
+  desc: A clean, beautiful blog template with responsive design.
+  avatar: siera.png
+  demo_url: http://ranceworks.com/
+
+- name: Material Design Personal Site
+  github_url: https://github.com/alexcarpenter/material-jekyll-theme
+  desc: A Material Design inspired Jekyll Theme.
+  avatar: material.png
+  demo_url: http://alexcarpenter.me/material-jekyll-theme/
+
+- name: Dentist Website Template
+  github_url: https://github.com/obaez/dentistsmile
+  desc: A single page Jekyll theme for dentists.
+  avatar: dentist.png
+  demo_url: http://obaez.com/dentistsmile/
+
+- name: Solar Blog Theme
+  github_url: https://github.com/mattvh/solar-theme-jekyll
+  desc: A stylish theme for Jekyll blogs, based on the Solarized color palette.
+  avatar: solarized.png
+  demo_url: http://mattvh.github.io/solar-theme-jekyll/
+
+- name: Sample Resume Site
+  github_url: https://github.com/ellekasai/resumecards/
+  desc: A Jekyll based resume generator that can be saved as a PDF.
+  avatar: resumecards.png
+  demo_url: http://ellekasai.github.io/resumecards/

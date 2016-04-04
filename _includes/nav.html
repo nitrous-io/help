@@ -1,0 +1,13 @@
+<header role="banner">
+  <hgroup role="navigation">
+    <a href="/" id="home"><span class="title">PubStorm</span>Docs</a>
+    <ul class="links">
+    {% assign sorted_posts = site.posts | sort:"navorder" %}
+    {% for post in sorted_posts %}
+      {% unless post.draft %}
+        <li class="vh600"><a href="{{ post.url }}" id="docs">{{ post.title }}</a></li>
+      {% endunless %}
+    {% endfor %}
+    </ul>
+  </hgroup>
+</header>

@@ -1,0 +1,12 @@
+host: 0.0.0.0 # for running on Nitrous
+permalink: none
+exclude:
+- README.md
+- Rakefile
+
+# defaults
+# markdown: kramdown
+# highlighter: rouge
+
+kramdown:
+  input: GFM # GitHub Flavored Markdown

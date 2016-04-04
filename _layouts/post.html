@@ -1,0 +1,31 @@
+---
+layout: default
+lnav: essays
+---
+
+<div id="post">
+  {% if post.draft %}
+    <div class="notice">You've stumbled upon a draft.</div>
+  {% else %}
+    <article>
+      <header>
+        <hgroup>
+          <h1 style="margin-bottom:1.5rem"> {{ page.title }}</h1>
+          <p class="post-date">Last updated <time pubdate datetime="{{ page.date | date: "%B %d %Y" }}">{{ page.date | date: "%B %d %Y" }}</time></p>
+        </hgroup>
+      </header>
+      {{ content }}
+    </article>
+  {% endif %}
+</div>
+
+<div id="post-nav" class="clearfix">
+  {% if page.next.url %}
+    <div class="next">
+      <a href="{{page.next.url}}" title="Newer">
+        <span>Next Article:</span>
+        {{ page.next.title }} &raquo;
+      </a>
+    </div>
+  {% endif %}
+</div>
