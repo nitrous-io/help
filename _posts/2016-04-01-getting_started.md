@@ -16,7 +16,7 @@ mycomputer:~$ npm install -g pubstorm
 ```
 
 <div class="alert warning">
-  <strong>Note:</strong> If you get a permission denied error, you might need to run <code>sudo npm install -g storm</code>
+  <strong>Note:</strong> If you get a permission denied error, you might need to run <code>sudo npm install -g pubstorm</code>
 </div>
 
 ### Create Your Account
