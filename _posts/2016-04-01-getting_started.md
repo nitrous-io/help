@@ -12,7 +12,7 @@ PubStorm is a free web publishing and hosting platform for HTML5 websites and ap
 To get started, you’ll need to download the PubStorm CLI. The PubStorm CLI is distributed as a node package called `storm`, so you’ll need to make sure you have [Node running on your machine first](https://nodejs.org/en/download/). Then, open a terminal/command line prompt and run:
 
 ```bash
-mycomputer:~$ npm install -g storm
+mycomputer:~$ npm install -g pubstorm
 ```
 
 <div class="alert warning">
