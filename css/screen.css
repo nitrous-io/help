@@ -23,7 +23,7 @@ body {
   padding: 0;
   width: 100%;
   background-color: transparent;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Titillium Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 18px;
   font-size: 1.8rem;
   line-height: 2em;
@@ -175,7 +175,7 @@ input[type="submit"].btn:hover {border-color: #cccccc;}
 [role="banner"] {
   border-bottom:1px solid #ccc;
   position:fixed;
-  background: #fff;
+  background: #1e4ca1;
   width:100%;
   padding: 1em 0 0;
   margin-bottom: 1em;
@@ -189,14 +189,14 @@ input[type="submit"].btn:hover {border-color: #cccccc;}
 }
 
 [role="navigation"] p {margin-bottom: 0;padding: 6px 11px;color: #ffffff;}
-[role="navigation"] a {color: #555;text-decoration: none;}
-[role="navigation"] a#home {padding: 0;width: 90%;margin: 0 auto;display: block;font-size: 2rem;line-height: 2rem;}
+[role="navigation"] a {color: #fff;text-decoration: none;}
+[role="navigation"] a#home {color: #febe10;padding: 0;width: 90%;margin: 0 auto;display: block;font-size: 2rem;line-height: 2rem;}
 [role="navigation"] a#home span.title {margin-right: 3px;font-weight:bold;}
 [role="navigation"] ul.links {list-style: none;margin-top: 1em;margin-bottom: 0;}
 [role="navigation"] ul.links li {margin: 0 0 5px;}
 [role="navigation"] ul.links li:last-child {margin-bottom: 0;}
-[role="navigation"] ul.links li a {color: #404040;padding: 5px 0;display: block;width: 90%;margin: 0 auto;font-size:1em;}
-[role="navigation"] ul.links li a:hover {color: #000;}
+[role="navigation"] ul.links li a {color: rgba(255,255,255,0.8);padding: 5px 0;display: block;width: 90%;margin: 0 auto;font-size:1em;}
+[role="navigation"] ul.links li a:hover {color: #fff;}
 
 #post-nav {display:block;padding:8px 0 0;}
 #post-nav a, #post-nav a:active, #post-nav a:visited {text-decoration: none;padding:5px 7px;color: #888;}
@@ -289,6 +289,7 @@ footer[role="contentinfo"] span#feeds {float: right;}
   #content {padding-top: 0;}
 
   [role="banner"] {
+    background: #1e4ca1;
     padding-top:1.95em;
     display: block;
     top:0;
@@ -304,8 +305,8 @@ footer[role="contentinfo"] span#feeds {float: right;}
 
   [role="banner"] a[href="#navigation"] { display: none !important;visibility: hidden;}
   [role="navigation"] ul.links li {margin: 0 0 7px;}
-  [role="navigation"] ul.links li a {padding-right:15px;color: #777}
-  [role="navigation"] ul.links li a.active {color: #000;}
+  [role="navigation"] ul.links li a {padding-right:15px;}
+  [role="navigation"] ul.links li a.active {color: #fff;}
   section[role="main"] { margin-top: 1.6em;min-height: 400px;}
   section[role="main"], footer[role="contentinfo"] {width: 65%;margin-left:25%;}
   footer[role="contentinfo"] {line-height:1.5em;}
