@@ -121,12 +121,12 @@ input:-moz-placeholder {font-size: 14px;font-size: 1.4rem;}
 
 pre {
   margin: 0 0 1.667em;
-  background-color: #112;
+  background-color: #f2f4f6;
   padding: 20px 15px;
   border-radius: 4px;
   -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
-  color: #fff;
+  color: #222;
   /* box-shadow:0 0 8px rgba(0,0,0,0.1); */
 }
 
@@ -140,7 +140,7 @@ code {
 }
 
 pre code {
-  color: #fff;
+  color: #2a2b2e;
   background-color: transparent;
   padding: 0;
 }
