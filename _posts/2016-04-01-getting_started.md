@@ -75,5 +75,3 @@ Once you've initialized your project directory, you can publish easily using the
 
     mycomputer:~/websites/my_blog$ storm publish
 
-**TODO**: Include gif of a site being published
-
