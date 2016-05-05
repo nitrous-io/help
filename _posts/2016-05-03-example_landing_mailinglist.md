@@ -17,11 +17,11 @@ You might not be ready to ship for a few weeks, or even months! But how do you k
 
 So how can you apply the Lean Startup Methodology to creative powerful, effective landing pages for your new app, book or service?
 
-With [PubStorm](www.pubstorm.com), in just a few minutes you can create a new lead generation landing page, connect it to your favorite mailing list or marketing automation tool, and ship it live. We're going to show you how in this tutorial.
+With [PubStorm](https://www.pubstorm.com), in just a few minutes you can create a new lead generation landing page, connect it to your favorite mailing list or marketing automation tool, and ship it live. We're going to show you how in this tutorial.
 
 ## Coding Level: Beginner / Intermediate
 
-For this tutorial, you'll need basic knowledge of HTML and CSS. [PubStorm](www.pubstorm.com) is also distributed as a node package module, so you'll need to know [some command-line basics](http://blog.teamtreehouse.com/command-line-basics).
+For this tutorial, you'll need basic knowledge of HTML and CSS. [PubStorm](https://www.pubstorm.com) is also distributed as a node package module, so you'll need to know [some command-line basics](http://blog.teamtreehouse.com/command-line-basics).
 
 We'll use a basic template for the markup that can be found on our [GitHub profile](https://github.com/PubStorm/example-landing-signup), but we encourage you to customize the landing page to fit your brand. We've added some comments to point you in the right direction when customizing.
 
@@ -148,4 +148,4 @@ Launching...
 
 Now we can see our new signup page at: [https://example-landing-signup.pubstorm.site/](https://example-landing-signup.pubstorm.site/). Make your customizations and `storm publish` until you've got it perfect.
 
-That's it for today! Hope you enjoyed the tutorial. Remember to Sign Up free and create your own custom landing page at [www.pubstorm.com](www.pubstorm.com)
+That's it for today! Hope you enjoyed the tutorial. Remember to Sign Up free and create your own custom landing page at [www.pubstorm.com](https://www.pubstorm.com)
