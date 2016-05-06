@@ -3,7 +3,7 @@ layout: post
 title: "Change / Reset Password"
 category: troubleshooting
 blurb: Setup a free custom domain and configure dns settings.
-slug: custom-domains
+slug: change-reset-password
 next-slug: starter-templates
 navorder: 3
 ---

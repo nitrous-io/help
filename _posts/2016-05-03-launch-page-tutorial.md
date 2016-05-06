@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "Launchrock Tutorial"
+title: "Landing Page Tutorial"
 category: tutorials
 blurb: Create a free launchrock style lead generation landing page with PubStorm and Mailchimp.
 navorder: 4
+slug: launch-page-tutorial
 next-slug: custom-domains
 ---
 
@@ -97,7 +98,7 @@ Go back to your browser tab with the landing page and refresh the page. You shou
 
 ![PubStorm Mailchimp Landing Page](/images/tutorials/mailchimp/mailchimp-final.png)
 
-Delete this line from `index.html` since it will screw with our custom CSS:
+Delete this line from `index.html` since it will not play well with our custom CSS:
 
 ```css
   <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">

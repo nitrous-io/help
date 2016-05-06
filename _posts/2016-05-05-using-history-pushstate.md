@@ -63,7 +63,7 @@ render((
 ), document.getElementById("app"));
 ```
 
-## Enabling pushState support in Angular
+### Enabling pushState support in Angular
 
 To enable pushState support in Angular, enable html5 mode in
 `locationProvider`.
