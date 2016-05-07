@@ -4,7 +4,6 @@ title: Getting Started
 category: getting-started
 blurb: Create a free account, setup and publish your first project.
 navorder: 1
-next-slug: custom-domains
 ---
 
 PubStorm is a free web publishing and hosting platform for HTML5 websites and applications. With PubStorm, you can get a live website or HTML5 application up and running in seconds.

@@ -4,7 +4,6 @@ title: Custom Domains
 category: getting-started
 blurb: Setup a free custom domain and configure dns settings.
 slug: custom-domains
-next-slug: starter-templates
 navorder: 2
 ---
 

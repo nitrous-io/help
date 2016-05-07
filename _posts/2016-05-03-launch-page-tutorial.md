@@ -5,7 +5,6 @@ category: tutorials
 blurb: Create a free launchrock style lead generation landing page with PubStorm and Mailchimp.
 navorder: 4
 slug: launch-page-tutorial
-next-slug: custom-domains
 ---
 
 ![Mailchimp Landing Page](/images/tutorials/mailchimp/mailchimp-final.png)
