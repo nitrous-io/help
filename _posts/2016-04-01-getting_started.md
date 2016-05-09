@@ -36,24 +36,22 @@ You'll be prompted with a confirmation that you want to use the current director
 
     mycomputer:~/websites/my_blog$ storm init
     Set up your PubStorm project
-    Enter Project Path: [.] my_blog
-    [Info] Successfully created project "my_blog".
-    [Info] Saved project settings to "pubstorm.json". This file should not be deleted.
+    Enter Project Path (path to be deployed): [.]
 
 #### Project Path
 
-`Project Path` is the location of your website's files (HTML, CSS & Javascript files). In many cases, this will be the current folder, so you can simple type `.`.
+`Project Path` is the location of your website's files (HTML, CSS & Javascript files). In many cases, this will be the current folder, so you can simply type `.`.
 
-If you are using a static site builder like [Jekyll]() or [Hugo]() or [MkDocs]() you will want to enter the `_site` or `site` directory as the `Project Path`.
+If you are using a static site builder like [Jekyll](https://jekyllrb.com/) or [Hugo](https://gohugo.io/), you will want to enter the `_site` or `public` directory as the `Project Path`.
 
 #### Project Name
 
-Next, you'll need to enter a name for the project. Note that if you are not using a [custom domain](), this name will be the subdomain for your live website: `my-new-blog.pubstormapp.com`.
+Next, you'll need to enter a name for the project. Note that if you are not using a [custom domain]({% post_url 2016-04-02-custom_domains %}), this name will be the subdomain for your live website: `my-blog.pubstormapp.com`.
 
     mycomputer:~/websites/my_blog$ storm init
     Set up your PubStorm project
     Enter Project Path: [.]
-    Enter Project Name: my-new-blog
+    Enter Project Name: my-blog
 
 
 <div class="alert warning">
@@ -63,9 +61,9 @@ Next, you'll need to enter a name for the project. Note that if you are not usin
     mycomputer:~/websites/my_blog$ storm init
     Set up your PubStorm project
     Enter Project Path: [.]
-    Enter Project Name: my-new-blog
-    [Info] Successfully created project "my-new-blog".
-    [Info] Saved project settings to "storm.json". This file should not be deleted.
+    Enter Project Name: my-blog
+    [Info] Successfully created project "my-blog".
+    [Info] Saved project settings to "pubstorm.json". This file should not be deleted.
 
 
 ### Publish Your Project
