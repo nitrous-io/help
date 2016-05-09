@@ -4,7 +4,7 @@ title: "Using history.pushState"
 category: documentation
 blurb: Use history.pushState in your web app with 200.html
 slug: using-history-pushstate
-navorder: 5
+navorder: 6
 ---
 
 If you are building a single-page JavaScript application, you may want
