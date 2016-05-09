@@ -4,7 +4,7 @@ title: "Change / Reset Password"
 category: troubleshooting
 blurb: Setup a free custom domain and configure dns settings.
 slug: change-reset-password
-navorder: 3
+navorder: 4
 ---
 
 ### Change Password
