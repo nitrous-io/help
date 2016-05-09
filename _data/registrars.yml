@@ -1,7 +1,7 @@
-- name: Go Daddy
+- name: GoDaddy
   cname_url: https://www.godaddy.com/help/manage-dns-for-your-domain-names-680#cnames
   arec_url: https://www.godaddy.com/help/add-an-a-record-19238
-  
+
 - name: Namecheap
   cname_url: https://www.namecheap.com/support/knowledgebase/article.aspx/9646/10/how-can-i-set-up-a-cname-record-for-my-domain
   arec_url: https://www.namecheap.com/support/knowledgebase/article.aspx/319/10/how-can-i-set-up-an-a-address-record-for-my-domain
@@ -10,7 +10,7 @@
   cname_url: https://www.digitalocean.com/community/tutorials/how-to-set-up-a-host-name-with-digitalocean#cname-records
   arec_url: https://www.digitalocean.com/community/tutorials/how-to-set-up-a-host-name-with-digitalocean#a-records
 
-- name: 1 and 1
+- name: 1&1
   cname_url: https://help.1and1.com/domains-c36931/manage-domains-c79822/dns-c37586/enter-a-cname-for-your-subdomain-a643600.html
   arec_url: https://help.1and1.com/domains-c36931/manage-domains-c79822/dns-c37586/change-your-domain-s-ip-address-a-record-a599296.html
 
@@ -42,7 +42,7 @@
   cname_url: https://help.iwantmyname.com/customer/portal/articles/209023-how-do-i-add-a-cname-dns-record-
   arec_url: https://help.iwantmyname.com/customer/en/portal/articles/209029-how-to-add-a-dns-a-record-for-your-domain
 
-- name: linode
+- name: Linode
   cname_url: https://www.linode.com/docs/networking/dns/dns-manager-overview/
   arec_url: https://www.linode.com/docs/networking/dns/dns-manager-overview/
 

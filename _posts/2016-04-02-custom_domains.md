@@ -11,12 +11,12 @@ navorder: 2
 
 ### Add a domain
 
-Open up a terminal, and change directories into the folder for the project where you ran `storm init`. Then type `storm domains add YOURDOMAIN.COM`
+Open up a terminal, and change directories into the folder for the project where you ran `storm init`. Then type `storm domains add <domain>`
 
 ```bash
 mycomputer:~$ storm domains add mydomain.com
-[Info] Successfully added "www.mywebsite.com" to project "my-website".
-[Info] Please add the following records to the DNS configuration for the domain "mywebsite.com":-
+[Info] Successfully added "www.mydomain.com" to project "my-website".
+[Info] Please add the following records to the DNS configuration for the domain "mydomain.com":-
   * CNAME (Alias): www ---> my-website.pubstorm.site
   * A (Host): @ ---> 52.38.113.95
 [Info] For more information on DNS configuration, please visit https://help.pubstorm.com/custom-domains
