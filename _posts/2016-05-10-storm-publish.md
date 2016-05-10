@@ -43,7 +43,7 @@ available at `http://sophias-blog.pubstorm.site`.
 
 <div class="alert info">
   <strong>Note:</strong> you can use a custom domain, in addition to the default
-  subdomain, by running <a href="#fixme"><code>storm domains add</code></a>.
+  subdomain, by running <a href="{% post_url 2016-05-10-storm-domains-add %}"><code>storm domains add</code></a>.
 </div>
 
 To publish changes to your website, simply make the required changes locally,
