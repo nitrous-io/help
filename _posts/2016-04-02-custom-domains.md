@@ -42,4 +42,4 @@ There are a variety of DNS registrars out there, and the instructions vary by pr
     </div>
   </div>
 {% endfor %}
-</ul>
+</div>
