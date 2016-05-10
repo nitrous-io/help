@@ -174,7 +174,6 @@ input[type="submit"].btn:hover {border-color: #cccccc;}
 /* Banner =================================================== */
 [role="banner"] {
   border-bottom:1px solid #ccc;
-  position:fixed;
   background: #1e4ca1;
   width:100%;
   padding: 1em 0 0;
@@ -294,9 +293,7 @@ footer[role="contentinfo"] span#feeds {float: right;}
     display: block;
     top:0;
     left:0;
-    bottom:0;
-    left:0;
-    position:fixed;
+    position:absolute;
     margin-bottom:0;
     width: 20%;
     min-height:auto;
@@ -304,7 +301,7 @@ footer[role="contentinfo"] span#feeds {float: right;}
   }
 
   [role="banner"] a[href="#navigation"] { display: none !important;visibility: hidden;}
-  [role="navigation"] ul.links {padding-top: 1em;border-top: 1px solid rgba(255,255,255,0.2);}
+  [role="navigation"] ul.links {padding: 1em 0;border-top: 1px solid rgba(255,255,255,0.2);}
   [role="navigation"] ul.links li {margin: 0 0 4px;}
   [role="navigation"] ul.links li a {padding-right:15px;}
   [role="navigation"] ul.links li a.active {color: #fff;}
