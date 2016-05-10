@@ -31,7 +31,7 @@ route to an appropriate page.
   <title>My App</title>
 </head>
 <body>
-  <script src="/js/app.js></script> <!-- load javascript application -->
+  <script src="/js/app.js"></script> <!-- load javascript application -->
 </body>
 </html>
 ```
@@ -65,7 +65,7 @@ render((
 
 ### Enabling pushState support in Angular
 
-To enable pushState support in Angular, enable html5 mode in
+To enable pushState support in Angular, enable HTML5 mode in
 `locationProvider`.
 
 ```javascript

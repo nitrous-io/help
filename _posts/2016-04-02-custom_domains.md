@@ -2,7 +2,7 @@
 layout: post
 title: Custom Domains
 category: getting-started
-blurb: Setup a free custom domain and configure dns settings.
+blurb: Setup a free custom domain and configure DNS settings.
 slug: custom-domains
 navorder: 2
 ---

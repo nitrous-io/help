@@ -2,7 +2,7 @@
 layout: post
 title: "Change / Reset Password"
 category: troubleshooting
-blurb: Setup a free custom domain and configure dns settings.
+blurb: Setup a free custom domain and configure DNS settings.
 slug: change-reset-password
 navorder: 4
 ---
