@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Landing Page Tutorial
-category: Tutorials
+title: "Landing Page Tutorial"
+category: tutorials
 blurb: Create a free launchrock style lead generation landing page with PubStorm and Mailchimp.
 navorder: 5
 slug: launch-page-tutorial

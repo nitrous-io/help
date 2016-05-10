@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Publishing and Rollbacks
-category: Documentation
+category: documentation
 blurb: How to update and revert your site to an older version
 navorder: 3
 ---

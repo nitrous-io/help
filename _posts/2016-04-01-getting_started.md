@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Getting Started
-category: Getting Started
+category: getting-started
 blurb: Create a free account, setup and publish your first project.
 navorder: 1
 ---

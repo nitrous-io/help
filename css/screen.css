@@ -304,8 +304,7 @@ footer[role="contentinfo"] span#feeds {float: right;}
   }
 
   [role="banner"] a[href="#navigation"] { display: none !important;visibility: hidden;}
-  [role="navigation"] ul.links {padding-top: 1em;border-top: 1px solid rgba(255,255,255,0.2);}
-  [role="navigation"] ul.links li {margin: 0 0 4px;}
+  [role="navigation"] ul.links li {margin: 0 0 7px;}
   [role="navigation"] ul.links li a {padding-right:15px;}
   [role="navigation"] ul.links li a.active {color: #fff;}
   section[role="main"] { margin-top: 1.6em;min-height: 400px;}

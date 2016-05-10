@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Collaborating on a Project
-category: Documentation
+category: documentation
 blurb: Working on a Project with teammates
 slug: collaborating-on-a-project
 navorder: 7

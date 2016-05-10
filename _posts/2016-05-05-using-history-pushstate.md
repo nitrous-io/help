@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Using history.pushState
-category: Documentation
+title: "Using history.pushState"
+category: documentation
 blurb: Use history.pushState in your web app with 200.html
 slug: using-history-pushstate
 navorder: 6
