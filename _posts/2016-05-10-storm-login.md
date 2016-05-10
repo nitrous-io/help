@@ -3,7 +3,7 @@ layout: cli-reference
 title: storm login
 category: command-reference
 blurb: Log in to a PubStorm account
-navorder: 9
+navorder: 12
 ---
 
 ### Name
