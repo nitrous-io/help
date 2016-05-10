@@ -16,7 +16,7 @@ storm signup - Create a new PubStorm account
 
 ### Description
 
-Use `storm signup` to signup for a [PubStorm](http://www.pubstorm.com/) account.
+Use `storm signup` to sign up for a [PubStorm](http://www.pubstorm.com/) account.
 PubStorm is free to use.
 
 You'll be asked to enter your email address and a password. You'll also be asked
