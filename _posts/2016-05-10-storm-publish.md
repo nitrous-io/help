@@ -37,7 +37,7 @@ Launching v1...
 ```
 
 After the `publish` command completes, a new version (see
-[`storm versions`](#fixme)) of your website will be "live" on a `.pubstorm.site`
+[`storm versions`]({% post_url 2016-05-10-storm-versions %})) of your website will be "live" on a `.pubstorm.site`
 domain. For example, if your **Project Name** is `sophias-blog`, it'll be
 available at `http://sophias-blog.pubstorm.site`.
 
@@ -48,3 +48,8 @@ available at `http://sophias-blog.pubstorm.site`.
 
 To publish changes to your website, simply make the required changes locally,
 then run `storm publish` again.
+
+### See Also
+
+[`storm versions`]({% post_url 2016-05-10-storm-versions %}),
+[`storm rollback`]({% post_url 2016-05-10-storm-rollback %})
