@@ -8,7 +8,7 @@ title: Help
 <p>PubStorm is a free web publishing and hosting platform for HTML5 websites and applications. With PubStorm, you can get a live website or HTML5 application up and running in seconds.</p>
 
 <div class="getting-started-intro">
-  {% assign sorted = (site.categories.getting-started | sort: 'navorder' %}
+  {% assign sorted = (site.categories['Getting Started'] | sort: 'navorder' %}
   {% for post in sorted %}
   <a class="info-block" href="{{ post.url }}">
     <h4>{{ post.title }}</h4>
