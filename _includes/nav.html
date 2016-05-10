@@ -3,7 +3,7 @@
     <a href="/" id="home"><span class="title">PubStorm</span>Help</a>
 
     {% if site.categories.getting-started != null %}
-    {% assign posts = (site.categories.getting-started | sort: 'navorder' %}
+    {% assign posts = site.categories.getting-started | sort: 'navorder' %}
     <ul class="links">
       <li class="vh600"><h3>Getting Started</h3></li>
       {% for post in posts %}
@@ -15,7 +15,7 @@
     {% endif %}
 
     {% if site.categories.tutorials != null %}
-    {% assign posts = (site.categories.tutorials | sort: 'navorder' %}
+    {% assign posts = site.categories.tutorials | sort: 'navorder' %}
     <ul class="links">
       <li class="vh600"><h3>Tutorials</h3></li>
       {% for post in posts %}
@@ -27,7 +27,7 @@
     {% endif %}
 
     {% if site.categories.documentation != null %}
-    {% assign posts = (site.categories.documentation | sort: 'navorder' %}
+    {% assign posts = site.categories.documentation | sort: 'navorder' %}
     <ul class="links">
       <li class="vh600"><h3>Documentation</h3></li>
       {% for post in posts %}
@@ -39,7 +39,7 @@
     {% endif %}
 
     {% if site.categories.troubleshooting != null %}
-    {% assign posts = (site.categories.troubleshooting | sort: 'navorder' %}
+    {% assign posts = site.categories.troubleshooting | sort: 'navorder' %}
     <ul class="links">
       <li class="vh600"><h3>Troubleshooting</h3></li>
       {% for post in posts %}
@@ -51,7 +51,7 @@
     {% endif %}
 
     {% if site.categories.command-reference != null %}
-    {% assign posts = (site.categories.command-reference | sort: 'navorder' %}
+    {% assign posts = site.categories.command-reference | sort: 'navorder' %}
     <ul class="links">
       <li class="vh600"><h3>Command Reference</h3></li>
       {% for post in posts %}
