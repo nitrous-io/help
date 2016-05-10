@@ -1,5 +1,5 @@
 host: 0.0.0.0 # for running on Nitrous
-permalink: none
+permalink: /:categories/:title/
 exclude:
 - README.md
 - Rakefile

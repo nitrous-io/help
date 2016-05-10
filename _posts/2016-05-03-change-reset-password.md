@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Change / Reset Password"
+title: Change / Reset Password
 category: troubleshooting
 blurb: Setup a free custom domain and configure DNS settings.
 slug: change-reset-password
