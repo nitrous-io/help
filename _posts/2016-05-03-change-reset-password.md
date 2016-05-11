@@ -29,5 +29,9 @@ mycomputer:~$ storm password reset
 Enter Email:
 ```
 
-You will be sent an email with a token to reset your password.
+You will be sent an email with a secret token that can be used to reset your
+password.
 
+### See Also
+
+[`storm login`]({% post_url 2016-05-10-storm-login %})
