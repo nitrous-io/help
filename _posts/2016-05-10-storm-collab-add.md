@@ -3,7 +3,7 @@ layout: cli-reference
 title: storm collab add
 category: command-reference
 blurb: Add a collaborator to the current project
-navorder: 10
+navorder: 12
 ---
 
 ### Name

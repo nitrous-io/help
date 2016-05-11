@@ -3,7 +3,7 @@ layout: cli-reference
 title: storm rollback
 category: command-reference
 blurb: Rollback to a previous or specific version of the current PubStorm project
-navorder: 8
+navorder: 10
 ---
 
 ### Name

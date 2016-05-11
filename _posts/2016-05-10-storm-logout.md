@@ -3,7 +3,7 @@ layout: cli-reference
 title: storm logout
 category: command-reference
 blurb: Log out from your current PubStorm session
-navorder: 13
+navorder: 15
 ---
 
 ### Name
