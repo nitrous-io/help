@@ -28,3 +28,10 @@ account.
 `storm` will remember your login details, so you won't have to re-enter your
 password until you've logged out (with
 [`storm logout`]({% post_url 2016-05-10-storm-logout %})).
+
+Use [`storm password reset`]({% post_url 2016-05-10-storm-password-reset %}) if
+you've forgotten your PubStorm account password.
+
+### See Also
+
+[`storm password reset`]({% post_url 2016-05-10-storm-password-reset %})
