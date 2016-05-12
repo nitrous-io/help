@@ -42,7 +42,8 @@ You'll be prompted with a confirmation that you want to use the current director
 
 `Project Path` is the location of your website's files (HTML, CSS & Javascript files). In many cases, this will be the current folder, so you can simply type `.`.
 
-If you are using a static site builder like [Jekyll](https://jekyllrb.com/) or [Hugo](https://gohugo.io/), you will want to enter the `_site` or `public` directory as the `Project Path`.
+If you are using a static site builder like [Jekyll](https://jekyllrb.com/) or [Hugo](https://gohugo.io/), you will want to enter the `_site` or `public` directory as the `Project Path`. See [`storm init`]({% post_url 2016-05-10-storm-init %}) for an
+explanation of the **Project Path**.
 
 #### Project Name
 

@@ -58,4 +58,4 @@ Enter "blog" (without quotes) to confirm: blog
 ### See Also
 
 [`storm projects`]({% post_url 2016-05-10-storm-projects %}),
-[`storm init`]({% post_url 2016-05-10-storm-init %}),
+[`storm init`]({% post_url 2016-05-10-storm-init %})
