@@ -24,22 +24,20 @@ can do.
 This is the hardest part - actually creating your website. This is the part
 where you'll be writing HTML, CSS and maybe some JavaScript.
 
-We're going to cheat here and use a popular [HTML5 boilerplate](https://html5boilerplate.com/)
-in place of actually creating a site. [Download it](https://github.com/h5bp/html5-boilerplate/releases/download/5.3.0/html5-boilerplate_v5.3.0.zip)
+We're going to cheat here and use a [HTML5 boilerplate](http://html5up.net/fractal)
+in place of actually creating a site. [Download it](http://html5up.net/fractal/download)
 to your computer and unzip it.
 
 <figure>
-  <img src="/images/tutorials/html5-boilerplate-finder.png" alt="Verify that HTTPS is now working in a web browser" />
+  <img src="/images/tutorials/html5-boilerplate-finder.png" alt="HTML5 boilerplate file listing" />
 </figure>
 
-If you open `index.html` in a web browser, you'll see the site in all its
-black and white glory:
+If you open `index.html` in a web browser, you'll see the webpage works (and
+looks) great.
 
 <figure>
-  <img src="/images/tutorials/html5-boilerplate-local.png" alt="Verify that HTTPS is now working in a web browser" />
+  <img src="/images/tutorials/html5-boilerplate-local.png" alt="HTML5 boilerplate viewed locally in browser" />
 </figure>
-
-It's not a pretty site, but let's just pretend it's yours.
 
 ### Step 2: Get PubStorm
 
@@ -102,6 +100,10 @@ Launching v1...
 
 If you go to [http://html5-boilerplate.pubstorm.site/](http://html5-boilerplate.pubstorm.site/),
 you'll see that your site is now on the Internet.
+
+<figure>
+  <img src="/images/tutorials/html5-boilerplate-live.png" alt="Loading our new site on a web browser" />
+</figure>
 
 ### Fin
 
