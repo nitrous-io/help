@@ -1,6 +1,6 @@
 ---
 layout: cli-reference
-title: storm cert set
+title: storm ssl set
 category: command-reference
 blurb: Upload an SSL certificate and a private key for a PubStorm project
 navorder: 7
@@ -8,23 +8,23 @@ navorder: 7
 
 ### Name
 
-storm cert set - Upload an SSL certificate and a private key for a PubStorm
+storm ssl set - Upload an SSL certificate and a private key for a PubStorm
 project
 
 ### Synopsis
 
-<pre><code>storm cert set [DOMAIN] [CRT_FILE] [KEY_FILE]</code></pre>
+<pre><code>storm ssl set [DOMAIN] [CERT_FILE] [KEY_FILE]</code></pre>
 
 ### Arguments
 
 **DOMAIN**: Domain that certificate is for. Specify `default` to disable the
 default `.pubstorm.site` domain. _Optional._<br>
-**CRT_FILE**: Path to SSL certificate file. _Optional._<br>
+**CERT_FILE**: Path to SSL certificate file. _Optional._<br>
 **KEY_FILE**: Path to private key for SSL certificate. _Optional._
 
 ### Description
 
-Use `storm cert set` to register an SSL certificate for a custom domain. This
+Use `storm ssl set` to register an SSL certificate for a custom domain. This
 will allow you to secure traffic to your website when it is accessed via your
 custom domain.
 
@@ -33,7 +33,7 @@ custom domain. Place them in a local path so that the `storm` command can access
 them.
 
 ```bash
-$ storm cert set
+$ storm ssl set
 Enter Domain Name: help.pubstorm.com
 Enter Path To Certificate: /path/to/help.pubstorm.com/cert.pem
 Enter Path To Private Key: /path/to/help.pubstorm.com/privkey.pem
@@ -57,5 +57,5 @@ e.g. _https://yourdomain.com/_.
 
 ### See Also
 
-[`storm cert info`]({% post_url 2016-05-10-storm-cert-info %}),
+[`storm ssl info`]({% post_url 2016-05-10-storm-ssl-info %}),
 [`storm domains`]({% post_url 2016-05-10-storm-domains %})

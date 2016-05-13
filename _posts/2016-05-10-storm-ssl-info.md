@@ -1,6 +1,6 @@
 ---
 layout: cli-reference
-title: storm cert info
+title: storm ssl info
 category: command-reference
 blurb: Show certificate information for a domain of the current PubStorm project
 navorder: 8
@@ -8,12 +8,12 @@ navorder: 8
 
 ### Name
 
-storm cert info - Show certificate information for a domain of the current
+storm ssl info - Show certificate information for a domain of the current
 PubStorm project
 
 ### Synopsis
 
-<pre><code>storm cert info [DOMAIN]</code></pre>
+<pre><code>storm ssl info [DOMAIN]</code></pre>
 
 ### Arguments
 
@@ -21,11 +21,11 @@ PubStorm project
 
 ### Description
 
-Use `storm cert info` to display the details of the certificate of a custom
+Use `storm ssl info` to display the details of the certificate of a custom
 domain of the current PubStorm project.
 
 ```bash
-$ storm cert info
+$ storm ssl info
 Enter Domain Name: help.pubstorm.com
 Certificate details for domain "help.pubstorm.com":
 Common Name: help.pubstorm.com
@@ -36,15 +36,15 @@ Expires At: 2016-08-07 04:20:00 +0000 UTC
 ```
 
 If the domain does not have a certificate registered with PubStorm, you can
-upload one using [`storm cert set`]({% post_url 2016-05-10-storm-cert-set %}).
+upload one using [`storm ssl set`]({% post_url 2016-05-10-storm-ssl-set %}).
 
 ```bash
-$ storm cert info
+$ storm ssl info
 Enter Domain Name: help.pubstorm.com
 [Info] No certificate for "help.pubstorm.com"
 ```
 
 ### See Also
 
-[`storm cert set`]({% post_url 2016-05-10-storm-cert-set %}),
+[`storm ssl set`]({% post_url 2016-05-10-storm-ssl-set %}),
 [`storm domains`]({% post_url 2016-05-10-storm-domains %})
