@@ -3,3 +3,4 @@ _site/
 _jekyll_s3.yml
 .DS_Store
 *.swp
+.sass-cache/

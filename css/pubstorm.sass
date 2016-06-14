@@ -1,0 +1,64 @@
+---
+---
+
+.getting-started-intro
+  margin: 0 0 24px
+  display: flex
+  justify-content: space-around
+  flex-wrap: row wrap
+  flex-direction: column
+
+a.info-block
+  margin: 0 0 20px
+  background: #fafafa
+  padding: 20px
+  text-decoration: none
+  border-radius: 4px
+  &:hover
+    text-decoration: none
+    color: #333
+    cursor: pointer
+    background: #f3f3fa
+
+.fb-li
+  display: flex
+  width: 100%
+  padding: 1em
+  margin: 0
+  align-items: flex-end
+  vertical-align: middle
+  &:nth-child(even)
+    background: #fafafa
+  .label
+    flex-basis: 320px
+    text-align: left
+    h4
+      margin: 0
+      line-height: 2.2em
+      color: #222
+  .la
+    flex-grow: 1
+    align-self: flex-end
+    text-align: right
+
+.starter-item
+  display: flex
+  background: #f3f3f3
+  padding: 20px
+  margin: 1em 0
+  &:hover
+    background: #f0f0f0
+  .avatar
+    margin-right: 1.5em
+  img
+    width: 135px
+
+@media only screen and (min-width: 800px)
+  .getting-started-intro
+    flex-direction: row
+  a.info-block
+    margin-right: 20px
+    &:last-of-type
+      margin-right: 0
+  .starter-item .avatar img
+    min-width: 200px
