@@ -1,0 +1,60 @@
+{% if site.categories.getting-started != null %}
+{% assign posts = site.categories.getting-started | sort: 'navorder' %}
+<h3>Getting Started</h3>
+<ul class="links">
+  {% for post in posts %}
+    {% unless post.draft %}
+      <li class="vh600"><a href="{{ post.url }}" id="docs">{{ post.title }}</a></li>
+    {% endunless %}
+  {% endfor %}
+</ul>
+{% endif %}
+
+{% if site.categories.tutorials != null %}
+{% assign posts = site.categories.tutorials | sort: 'navorder' %}
+<h3>Tutorials</h3>
+<ul class="links">
+  {% for post in posts %}
+    {% unless post.draft %}
+      <li class="vh600"><a href="{{ post.url }}" id="docs">{{ post.title }}</a></li>
+    {% endunless %}
+  {% endfor %}
+</ul>
+{% endif %}
+
+{% if site.categories.documentation != null %}
+{% assign posts = site.categories.documentation | sort: 'navorder' %}
+<h3>Documentation</h3>
+<ul class="links">
+  {% for post in posts %}
+    {% unless post.draft %}
+      <li class="vh600"><a href="{{ post.url }}" id="docs">{{ post.title }}</a></li>
+    {% endunless %}
+  {% endfor %}
+</ul>
+{% endif %}
+
+{% if site.categories.troubleshooting != null %}
+{% assign posts = site.categories.troubleshooting | sort: 'navorder' %}
+<h3>Troubleshooting</h3>
+<ul class="links">
+  {% for post in posts %}
+    {% unless post.draft %}
+      <li class="vh600"><a href="{{ post.url }}" id="docs">{{ post.title }}</a></li>
+    {% endunless %}
+  {% endfor %}
+</ul>
+{% endif %}
+
+{% if site.categories.command-reference != null %}
+{% assign posts = site.categories.command-reference | sort: 'navorder' %}
+<h3>Command Reference</h3>
+<ul class="links">
+  {% for post in posts %}
+    {% unless post.draft %}
+      <li class="vh600"><a href="{{ post.url }}" id="docs">{{ post.title }}</a></li>
+    {% endunless %}
+  {% endfor %}
+</ul>
+<a href="#top" class="back-to-top">Back to Top</a>
+{% endif %}

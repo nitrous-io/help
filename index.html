@@ -5,11 +5,21 @@ title: Help
 
 <h1>PubStorm</h1>
 
-<p>PubStorm is a free web publishing and hosting platform for HTML5 websites and applications. With PubStorm, you can get a live website or HTML5 application up and running in seconds.</p>
+<p>PubStorm is a free front-end web publishing and hosting platform for personal websites, company landing pages and single page javascript applications. PubStorm works great with Jekyll, Middleman, Hugo, Ember.js, React.js, Angular.js and more.</p>
 
 <div class="getting-started-intro">
   {% assign sorted = (site.categories.getting-started | sort: 'navorder' %}
   {% for post in sorted %}
+  <a class="info-block" href="{{ post.url }}">
+    <h4>{{ post.title }}</h4>
+    <p>{{ post.blurb }}</p>
+  </a>
+  {% endfor %}
+</div>
+
+<div class="getting-started-intro">
+  {% assign tsorted = (site.categories.tutorials | sort: 'navorder' %}
+  {% for post in tsorted %}
   <a class="info-block" href="{{ post.url }}">
     <h4>{{ post.title }}</h4>
     <p>{{ post.blurb }}</p>

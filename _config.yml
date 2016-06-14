@@ -10,3 +10,7 @@ exclude:
 
 kramdown:
   input: GFM # GitHub Flavored Markdown
+
+sass:
+  style: compressed
+  sass_dir: css/_sass

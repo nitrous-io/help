@@ -1,12 +1,16 @@
 {% include header.html %}
 <body>
-  <div id="cont">
-    {% include nav.html %}
-    <section role="main">
-      <div id="content">
+  {% include mobile-nav.html %}
+  {% include navbar.html %}
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-8 main-content" role="main">
         {{ content }}
       </div>
-    </section>
+      <div class="col-sm-3 col-sm-offset-1 sidenav" role="complementary">
+        {% include sidenav.html %}
+      </div>
+    </div>
     {% include footer.html %}
   </div>
   {% include ga.html %}
