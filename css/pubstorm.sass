@@ -1,6 +1,8 @@
 ---
 ---
 
+@import 'variables'
+
 .getting-started-intro
   margin: 0 0 24px
   display: flex
@@ -41,6 +43,12 @@ a.info-block
     align-self: flex-end
     text-align: right
 
+.sidenav
+  ul
+    list-style: none
+    margin: 0
+    padding: 0
+
 .starter-item
   display: flex
   background: #f3f3f3
@@ -52,6 +60,34 @@ a.info-block
     margin-right: 1.5em
   img
     width: 135px
+
+.footer
+  border-top: 2px solid #eee
+  margin-top: 2em
+  padding: 1em 0
+  h4
+    font-size: 14px
+    font-weight: bold
+  ul
+    list-style: none
+    padding: 0
+    margin: 0
+    font-size: 12px
+    li
+      margin: 5px 0
+
+  form
+    margin: 8px 0
+    input
+      &.email
+        padding: 5px 8px
+      &.button
+        background: $brandBlue
+        display: inline-block
+        color: #fff
+        border: none
+        border-radius: 4px
+        padding: 7px 12px
 
 @media only screen and (min-width: 800px)
   .getting-started-intro
