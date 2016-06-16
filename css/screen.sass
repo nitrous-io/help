@@ -4,17 +4,20 @@
 @import 'variables'
 
 body
-  font-family: "Titillium Web", "Helvetica Neue", Helvetica, Arial, sans-serif
+  font-family: Helvetica, Arial, sans-serif
 
 img
   max-width: 100%
   height: auto
   display: block
 
+h1, h2, h3, h4, h5, h6
+  font-family: "Titillium Web", "Helvetica Neue", Helvetica, Arial, sans-serif
+
 .mobile-nav
   display: none
   position: fixed
-  padding: 0 20px
+  padding: 0px 20px
   top: 0
   left: 0
   width: 100%
@@ -24,15 +27,14 @@ img
   background: rgba(255,255,255,0.95)
   overflow: auto
 
-  .menu-close
+  #mmenu-x
     position: absolute
-    top: 0px
-    right: 45px
-    font-size: 36px
-    text-decoration: none
-    text-transform: lowercase
-    font-family: 'Lato', serif
+    top: 10px
+    right: 40px
     cursor: pointer
+    .glyphicon.glyphicon-remove
+      font-size: 30px
+      font-weight: normal
 
 .navbar
   border-radius: 0

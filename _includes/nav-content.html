@@ -1,6 +1,6 @@
 {% if site.categories.getting-started != null %}
 {% assign posts = site.categories.getting-started | sort: 'navorder' %}
-<h3>Getting Started</h3>
+<h4>Getting Started</h4>
 <ul class="links">
   {% for post in posts %}
     {% unless post.draft %}
@@ -12,7 +12,7 @@
 
 {% if site.categories.tutorials != null %}
 {% assign posts = site.categories.tutorials | sort: 'navorder' %}
-<h3>Tutorials</h3>
+<h4>Tutorials</h4>
 <ul class="links">
   {% for post in posts %}
     {% unless post.draft %}
@@ -24,7 +24,7 @@
 
 {% if site.categories.documentation != null %}
 {% assign posts = site.categories.documentation | sort: 'navorder' %}
-<h3>Documentation</h3>
+<h4>Documentation</h4>
 <ul class="links">
   {% for post in posts %}
     {% unless post.draft %}
@@ -36,7 +36,7 @@
 
 {% if site.categories.troubleshooting != null %}
 {% assign posts = site.categories.troubleshooting | sort: 'navorder' %}
-<h3>Troubleshooting</h3>
+<h4>Troubleshooting</h4>
 <ul class="links">
   {% for post in posts %}
     {% unless post.draft %}
@@ -48,7 +48,7 @@
 
 {% if site.categories.command-reference != null %}
 {% assign posts = site.categories.command-reference | sort: 'navorder' %}
-<h3>Command Reference</h3>
+<h4>Command Reference</h4>
 <ul class="links">
   {% for post in posts %}
     {% unless post.draft %}
