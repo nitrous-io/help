@@ -8,7 +8,7 @@ navorder: 23
 
 ### Name
 
-storm unprotect - Disable protection for your PubStorm project
+storm unprotect - Disable basic auth protection for your PubStorm project
 
 ### Synopsis
 
