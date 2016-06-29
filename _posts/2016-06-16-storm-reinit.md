@@ -32,7 +32,7 @@ The default **Project Path** is `.` (the directory where `storm init` is run).
 This is a good choice if you intend to publish everything in the current
 directory.
 
-<div class="alert warning">
+<div class="alert alert-warning">
   <strong>Note:</strong> Do not store any sensitive information like
   passwords or secret tokens inside your <strong>Project Path</strong>!
 </div>
