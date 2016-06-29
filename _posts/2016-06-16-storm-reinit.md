@@ -16,7 +16,7 @@ storm reinit - Re-initialize a PubStorm project
 
 ### Description
 
-`storm reinit` re-initialize a PubStorm project using _current working
+`storm reinit` will re-initialize a PubStorm project using the _current working
 directory_. You will be asked for your **Project Path** and **Project Name**.
 If you accidentally deleted your `pubstorm.json`, you should use this command
 to generate it again.
@@ -39,7 +39,7 @@ directory.
 
 #### Project Name
 
-Project name must be one of your existing project name.
+Project name must be one of your existing project names.
 
 ### Examples
 
