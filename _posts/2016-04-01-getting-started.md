@@ -47,7 +47,7 @@ explanation of the **Project Path**.
 
 #### Project Name
 
-Next, you'll need to enter a name for the project. Note that if you are not using a [custom domain]({% post_url 2016-04-02-custom-domains %}), this name will be the subdomain for your live website: `my-blog.pubstorm.site`.
+Next, you'll need to enter a name for the project. Note that if you are not using a [custom domain]({% post_url 2016-06-29-custom-domains %}), this name will be the subdomain for your live website: `my-blog.pubstorm.site`.
 
     mycomputer:~/websites/my_blog$ storm init
     Set up your PubStorm project

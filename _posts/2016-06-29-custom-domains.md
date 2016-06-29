@@ -2,11 +2,14 @@
 layout: post
 title: Custom Domains
 category: getting-started
-blurb: Setup a free custom domain and configure DNS settings.
+blurb: Setup a custom domain with a free SSL certificate.
 navorder: 2
 ---
 
-[PubStorm](https://www.pubstorm.com) allows you to use a custom domain for your projects instead of our subdomain `my-website.pubstorm.site` for free. This article assumes you've already [setup a project](/getting-started/getting_started).
+[PubStorm](https://www.pubstorm.com) allows you to use a custom domain for your projects instead of our subdomain `my-website.pubstorm.site`. You can also secure your
+traffic to your custom domain with a free SSL certificate.
+
+This article assumes you've already [setup a project](/getting-started/getting_started).
 
 ### Add a domain
 
@@ -43,3 +46,19 @@ There are a variety of DNS registrars out there, and the instructions vary by pr
   </div>
 {% endfor %}
 </div>
+
+### Setup HTTPS on your domain
+
+Setting up HTTPS on PubStorm takes about 5 seconds and costs nothing.
+
+Back in the terminal, type `storm ssl letsencrypt <domain>`:
+
+```bash
+mycomputer:~$ storm ssl letsencrypt mydomain.com
+Enter Domain Name: mydomain.com
+Requesting a certificate from Let's Encrypt for mydomain.com...
+[Info] Successfully installed a Let's Encrypt certificate for https://mydomain.com/.
+```
+
+That's it! You can visit your domain at `https://mydomain.com/` in your browser
+to verify that it is properly serving your site over HTTPS.
