@@ -16,12 +16,12 @@ storm config - Configure a PubStorm project
 
 ### Description
 
-`storm config` configure a PubStorm project in _current working
+`storm config` configures a PubStorm project in _current working
 directory_.
 
 #### Deploy optimized project?
 
-Your project will be optimized by enabling this option.
+Entering 'Y' will do the following:
 
 1. JavaScript files will be minified.
 2. CSS files will be minified.
