@@ -3,7 +3,7 @@ layout: cli-reference
 title: storm password reset
 category: command-reference
 blurb: Reset your PubStorm password
-navorder: 19
+navorder: 21
 ---
 
 ### Name

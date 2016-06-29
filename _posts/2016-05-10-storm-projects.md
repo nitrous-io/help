@@ -3,7 +3,7 @@ layout: cli-reference
 title: storm projects
 category: command-reference
 blurb: List PubStorm projects you have access to
-navorder: 14
+navorder: 16
 ---
 
 ### Name

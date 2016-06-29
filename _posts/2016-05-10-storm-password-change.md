@@ -3,7 +3,7 @@ layout: cli-reference
 title: storm password change
 category: command-reference
 blurb: Change your PubStorm password
-navorder: 18
+navorder: 20
 ---
 
 ### Name

@@ -3,7 +3,7 @@ layout: cli-reference
 title: storm ssl set
 category: command-reference
 blurb: Upload an SSL certificate and a private key for a PubStorm project
-navorder: 7
+navorder: 8
 ---
 
 ### Name
@@ -29,8 +29,11 @@ will allow you to secure traffic to your website when it is accessed via your
 custom domain.
 
 To do this, you will first need an SSL certificate and its private key for your
-custom domain. Place them in a local path so that the `storm` command can access
-them.
+custom domain. If you don't already have an SSL certificate, you can setup one
+for free using [`storm ssl letsencrypt`]({% post_url 2016-06-29-storm-ssl-letsencrypt %}).
+
+Place the certificate and its private key in a local path so that the `storm`
+command can access them.
 
 ```bash
 $ storm ssl set
@@ -57,5 +60,6 @@ e.g. _https://yourdomain.com/_.
 
 ### See Also
 
+[`storm ssl letsencrypt`]({% post_url 2016-06-29-storm-ssl-letsencrypt %}),
 [`storm ssl info`]({% post_url 2016-05-10-storm-ssl-info %}),
 [`storm domains`]({% post_url 2016-05-10-storm-domains %})

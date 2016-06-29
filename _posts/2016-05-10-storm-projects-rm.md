@@ -3,7 +3,7 @@ layout: cli-reference
 title: storm projects rm
 category: command-reference
 blurb: Delete a PubStorm project
-navorder: 15
+navorder: 19
 ---
 
 ### Name

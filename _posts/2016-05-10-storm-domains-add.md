@@ -43,7 +43,11 @@ The string `default` is special - it indicates the
 [**default domain**](#default-domain) provided to a project. Use `storm domains
 add default` to enable the default domain (if it was previously disabled).
 
-#### Default domain
+### Securing your domain with HTTPS
+
+You can serve your new domain over HTTPS using [`storm ssl letsencrypt`]({% post_url 2016-06-29-storm-ssl-letsencrypt %}).
+
+### Default domain
 
 The **default domain** provided to you is `<project-name>.pubstorm.site`. For
 example, if your **Project Name** is `blog`, its default domain is
@@ -57,4 +61,5 @@ default domain using
 ### See Also
 
 [`storm domains rm`]({% post_url 2016-05-10-storm-domains-rm %}),
-[`storm domains`]({% post_url 2016-05-10-storm-domains %})
+[`storm domains`]({% post_url 2016-05-10-storm-domains %}),
+[`storm ssl letsencrypt`]({% post_url 2016-06-29-storm-ssl-letsencrypt %})

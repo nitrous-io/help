@@ -3,7 +3,7 @@ layout: cli-reference
 title: storm collab rm
 category: command-reference
 blurb: Remove a collaborator from the current project
-navorder: 13
+navorder: 15
 ---
 
 ### Name
