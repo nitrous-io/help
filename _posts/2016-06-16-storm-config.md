@@ -3,7 +3,7 @@ layout: cli-reference
 title: storm config
 category: command-reference
 blurb: Configure a PubStorm Project
-navorder: 21
+navorder: 22
 ---
 
 ### Name
@@ -16,12 +16,12 @@ storm config - Configure a PubStorm project
 
 ### Description
 
-`storm config` configures a PubStorm project in _current working
-directory_.
+`storm config` configures the current PubStorm project. Right now, there's only
+a single setting that you can change: whether to optimize your project when
+deploying.
 
-#### Deploy optimized project?
-
-Entering 'Y' will do the following:
+If you choose to optimize your project when deploying, these additional steps
+will be performed:
 
 1. JavaScript files will be minified.
 2. CSS files will be minified.
@@ -39,6 +39,6 @@ $ cd /path/to/my/site
 $ storm config
 Configure your project: <project-name>
 Deploy optimized project? [Y/n]: Y
-[Info] Project will be optmized from next deployment.
-Successfully updated <project-name> project's configuration.
+[Info] Project will be optimized from the next deployment onwards.
+Successfully updated <project-name> project configuration.
 ```

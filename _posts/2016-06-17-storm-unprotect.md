@@ -3,12 +3,12 @@ layout: cli-reference
 title: storm unprotect
 category: command-reference
 blurb: Disable protection for your PubStorm project
-navorder: 23
+navorder: 24
 ---
 
 ### Name
 
-storm unprotect - Disable basic auth protection for your PubStorm project
+storm unprotect - Disable HTTP basic authentication for your PubStorm project
 
 ### Synopsis
 
@@ -16,8 +16,8 @@ storm unprotect - Disable basic auth protection for your PubStorm project
 
 ### Description
 
-Use `storm unprotect` to remove HTTP basic authentication from
-the current PubStorm project.
+Use `storm unprotect` to remove HTTP basic authentication that was previously
+setup using [`storm protect`]({% post_url 2016-06-17-storm-protect %}).
 
 ### Examples
 

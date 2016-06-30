@@ -3,7 +3,7 @@ layout: cli-reference
 title: storm protect
 category: command-reference
 blurb: Protect your PubStorm project with HTTP basic authentication
-navorder: 22
+navorder: 23
 ---
 
 ### Name
@@ -21,9 +21,10 @@ storm protect - Protect your PubStorm project with HTTP basic authentication
 
 ### Description
 
-`storm protect` allows you to protect your project with HTTP basic
-authentication. HTTP basic authentication is a method for an HTTP user agent to
-provide a user name and password when making a request.
+`storm protect` allows you to protect your project with [HTTP basic
+authentication](https://en.wikipedia.org/wiki/Basic_access_authentication).
+Any requests made to your project will require authentication via the username
+and password that you specify.
 
 <figure>
   <img src="/images/cli/storm-protect-basic-auth.png" alt="Add HTTP basic authentication to protect PubStorm project" />
