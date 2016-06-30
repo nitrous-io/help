@@ -17,20 +17,16 @@ storm reinit - Re-initialize a PubStorm project
 ### Description
 
 `storm reinit` will re-initialize a PubStorm project using the _current working
-directory_. You will be asked for your **Project Path** and **Project Name**.
-If you accidentally deleted your `pubstorm.json`, you should use this command
-to generate it again.
+directory_. This is useful if you have accidentally deleted the `pubstorm.json`
+file and need to generate it.
+
+You will be asked for your **Project Path** and **Project Name**.
 
 #### Project Path
 
 The **Project Path** is the local path to a directory containing your website's
 files (HTML, CSS & Javascript files) - all files in this directory will be
-uploaded and published on the Web. `storm init` will create this directory if it
-doesn't exist.
-
-The default **Project Path** is `.` (the directory where `storm init` is run).
-This is a good choice if you intend to publish everything in the current
-directory.
+uploaded and published on the Web.
 
 <div class="alert alert-warning">
   <strong>Note:</strong> Do not store any sensitive information like
