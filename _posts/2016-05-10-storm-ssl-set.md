@@ -3,7 +3,7 @@ layout: cli-reference
 title: storm ssl set
 category: command-reference
 blurb: Upload an SSL certificate and a private key for a PubStorm project
-navorder: 8
+navorder: 9
 ---
 
 ### Name
@@ -61,5 +61,6 @@ e.g. _https://yourdomain.com/_.
 ### See Also
 
 [`storm ssl letsencrypt`]({% post_url 2016-06-29-storm-ssl-letsencrypt %}),
+[`storm ssl force`]({% post_url 2016-06-29-storm-ssl-force %}),
 [`storm ssl info`]({% post_url 2016-05-10-storm-ssl-info %}),
 [`storm domains`]({% post_url 2016-05-10-storm-domains %})

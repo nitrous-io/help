@@ -3,7 +3,7 @@ layout: cli-reference
 title: storm versions
 category: command-reference
 blurb: List published versions of the current PubStorm project
-navorder: 10
+navorder: 11
 ---
 
 ### Name

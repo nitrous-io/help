@@ -16,9 +16,10 @@ storm config - Configure a PubStorm project
 
 ### Description
 
-`storm config` configures the current PubStorm project. Right now, there's only
-a single setting that you can change: whether to optimize your project when
-deploying.
+`storm config` configures the current PubStorm project.
+
+Right now, there's only a single setting that you can change: whether to
+optimize your project when deploying.
 
 If you choose to optimize your project when deploying, these additional steps
 will be performed:
