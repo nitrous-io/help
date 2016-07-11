@@ -60,5 +60,6 @@ Requesting a certificate from Let's Encrypt for mydomain.com...
 [Info] Successfully installed a Let's Encrypt certificate for https://mydomain.com/.
 ```
 
-That's it! You can visit your domain at `https://mydomain.com/` in your browser
-to verify that it is properly serving your site over HTTPS.
+Now that you've setup SSL on your site, you probably want to force SSL for all visitors. You can do that using the [`storm ssl force`]({% post_url 2016-06-29-storm-ssl-force %}) command.
+
+That's it! You can visit your domain at `https://www.mydomain.com/` in your browser to verify that it is properly serving your site over HTTPS.

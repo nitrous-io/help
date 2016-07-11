@@ -37,26 +37,31 @@ command can access them.
 
 ```bash
 $ storm ssl set
-Enter Domain Name: help.pubstorm.com
-Enter Path To Certificate: /path/to/help.pubstorm.com/cert.pem
-Enter Path To Private Key: /path/to/help.pubstorm.com/privkey.pem
-[Info] Successfully set an SSL certificate for https://help.pubstorm.com/
+Enter Domain Name: yourdomain.com
+Enter Path To Certificate: /path/to/yourdomain.com/cert.pem
+Enter Path To Private Key: /path/to/yourdomain.com/privkey.pem
+[Info] Successfully set an SSL certificate for https://www.yourdomain.com/
 
-Certificate details for domain "help.pubstorm.com":
-Common Name: help.pubstorm.com
+Certificate details for domain "www.yourdomain.com":
+Common Name: www.yourdomain.com
 Issuer: /C=US/O=Let's Encrypt/CN=Let's Encrypt Authority X3
-Subject: /CN=help.pubsorm.com
+Subject: /CN=www.yourdomain.com
 Starts At: 2016-05-09 04:20:00 +0000 UTC
 Expires At: 2016-08-07 04:20:00 +0000 UTC
 ```
 
 You will then be able to access your website over
 [HTTPS](https://en.wikipedia.org/wiki/HTTPS) in a web browser,
-e.g. _https://yourdomain.com/_.
+e.g. _https://www.yourdomain.com/_.
 
 <figure>
   <img src="/images/cli/storm-cert-set-https-browser.png" alt="Verify that HTTPS is now working in a web browser" />
 </figure>
+<br />
+
+Note that if you enter "_foobar.com_" in the address bar, it will redirect to "_https://www.foobar.com_" as expected. If however, someone were to type "_https://foobar.com_" without the "www", the page will return 404.
+
+If you need an ssl cert on your root domain, you'll need to set up your own certs using cloudflare or equivalent to setup ssl for your apex (root) domain.
 
 ### See Also
 

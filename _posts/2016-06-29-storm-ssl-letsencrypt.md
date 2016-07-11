@@ -61,6 +61,8 @@ Some technical details for the so inclined.
   certificate. It doesn't matter that PubStorm has previously requested a
   certificate. All you need to do is to [prove that you control the domain](https://letsencrypt.org/how-it-works/).
 
+Now that you've setup SSL on your site, you probably want to force SSL for all visitors. You can do that using the [`storm ssl force`]({% post_url 2016-06-29-storm-ssl-force %}) command.
+
 ### See Also
 
 [`storm ssl info`]({% post_url 2016-05-10-storm-ssl-info %}),
