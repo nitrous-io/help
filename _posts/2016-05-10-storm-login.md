@@ -6,6 +6,12 @@ blurb: Log in to a PubStorm account
 navorder: 18
 ---
 
+<div class="alert alert-warning" id="login-enquiry">
+  <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+  PubStorm is a <strong>Command Line Interface</strong>. We do not provide a web-based login or dashboard.
+  To login, install the <a href="/getting-started/getting-started/" target="_blank">PubStorm CLI</a> and follow the instructions below.
+</div>
+
 ### Name
 
 storm login - Log in to a PubStorm account
