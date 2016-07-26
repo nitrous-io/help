@@ -20,11 +20,11 @@ mycomputer:~$ npm install -g pubstorm
 
 ### Create Your Account
 
-Once you’ve installed the PubStorm CLI, you’re ready to create an account. Accounts are 100% free for unlimited projects. You will need to confirm your email address by pasting a confirmation code in the terminal.
+Once you’ve installed the PubStorm CLI, you’re ready to create an account. Accounts are 100% free for unlimited projects.
 
-<figure>
-  <img src="/images/signup.png" alt="PubStorm signup" />
-</figure>
+    mycomputer:~/ storm signup
+
+You will need to confirm your email address by pasting a confirmation code in the terminal. Just paste the code from your email when prompted from the CLI.
 
 ### Create Your First Project
 
