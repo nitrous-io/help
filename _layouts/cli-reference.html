@@ -2,8 +2,23 @@
 layout: default
 ---
 
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@nitrous" />
+{% if page.title %}
+  <meta name="twitter:title" content="{{ page.title }}" />
+{% else %}
+  <meta name="twitter:title" content="PubStorm CLI Reference" />
+{% endif %}
+
+{% if page.twitter-description %}
+  <meta name="twitter:description" content="{{ page.twitter-description }}" />
+{% else %}
+  <meta name="twitter:description" content="Read more about the PubStorm CLI." />
+{% endif %}
+<meta name="twitter:image" content="http://nitrous-community.s3.amazonaws.com/images/tcard-sm-ssh.png" />
+
 <div id="post">
-  {% if post.draft %}
+  {% if page.draft %}
     <div class="notice">You've stumbled upon a draft.</div>
   {% else %}
     <article>
